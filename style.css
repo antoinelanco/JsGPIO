@@ -1,0 +1,44 @@
+body {
+    background : linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    /*background-color: blue;*/
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div{
+
+    height: 30em;
+    display: flex;
+    flex-basis: 8%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    width: 10em;
+    height: 9em;
+    border-radius: 10px;
+    border: 0;
+    margin: 2px;
+}
+
+.on {
+     background-color: #28B80E;
+}
+
+.off {
+    background-color: #C5032B;
+}
